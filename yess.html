@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./style.css">
+
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">WAIT!!! Just a last check</h1>
+            </div>
+            <div class="gi_container">
+                <img src="ab.jpg" alt="Cute animated illustration">
+            </div>
+            <br>
+            <div>
+                <h1 class = "header_text">Can you see a heart?💗</h1><br>
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onclick="moveButton()" onclick="moveButton()">No</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+
+                    function moveButton() {
+                        window.location.href = "no.html";
+                    }
+                </script> 
+            </div>
+        </div>
+
+    </body> 
+</html>
